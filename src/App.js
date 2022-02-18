@@ -92,9 +92,10 @@ export default function ElevateAppBar(props) {
             <p>Paragraph about Seneca here.  Basic details of why we are raising awareness. Some details about where the money goes when a person clicks "donate"? Temp text for filler: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna. Semper viverra nam libero justo. Nullam non nisi est sit amet facilisis magna etiam tempor. Magna ac placerat vestibulum lectus mauris ultrices eros in. Massa tincidunt dui ut ornare lectus sit amet. Porta non pulvinar neque laoreet suspendisse. Tincidunt lobortis feugiat vivamus at. Ultricies mi quis hendrerit dolor magna eget est. Senectus et netus et malesuada fames ac turpis egestas sed. Pellentesque massa placerat duis ultricies lacus sed turpis. </p>
             <h2>How to Help:</h2>
             <ul>
+              <li><a href="www.freeseneca.org">Click here to open a prefilled and addressed e-mail to all Oregon representatives</a></li>
               <li>Contact <a href="https://www.oregon.gov/gov/Pages/share-your-opinion.aspx">The Office of Oregon Govenor Kate Brown</a></li>
               <li>Reach out to an <a href="https://www.oregonlegislature.gov/house/pages/representativesall.aspx">Oregon State Representative</a></li>
-              <li><a href="www.freeseneca.org">Click here to open a prefilled and addressed e-mail to all Oregon representatives</a></li>
+              <li>Write to your own representatives (<a href="https://democracy.io/">Democracy.io</a>)</li>
               <li>Donate!</li>
             </ul>
           </Box>
