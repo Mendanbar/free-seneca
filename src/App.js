@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
   },
   banner: {
     width: '100%',
+  },
+  donate:{
+    marginTop: '5px',
   }
 }));
 
@@ -73,7 +76,7 @@ export default function ElevateAppBar(props) {
                 Free Seneca
               </Typography>
               <div>
-                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <form className={classes.donate} action="https://www.paypal.com/donate" method="post" target="_top">
                   <input type="hidden" name="hosted_button_id" value="BWCGG2W8CBJ46" />
                   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
                   <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
@@ -87,11 +90,12 @@ export default function ElevateAppBar(props) {
         <Container>
           <Box my={2}>
             <p>Paragraph about Seneca here.  Basic details of why we are raising awareness. Some details about where the money goes when a person clicks "donate"? Temp text for filler: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna. Semper viverra nam libero justo. Nullam non nisi est sit amet facilisis magna etiam tempor. Magna ac placerat vestibulum lectus mauris ultrices eros in. Massa tincidunt dui ut ornare lectus sit amet. Porta non pulvinar neque laoreet suspendisse. Tincidunt lobortis feugiat vivamus at. Ultricies mi quis hendrerit dolor magna eget est. Senectus et netus et malesuada fames ac turpis egestas sed. Pellentesque massa placerat duis ultricies lacus sed turpis. </p>
-            <h2>Who to Contact</h2>
+            <h2>How to Help:</h2>
             <ul>
-              <li>John Doe</li>
-              <li>John Doe</li>
-              <li>John Doe</li>
+              <li>Contact <a href="https://www.oregon.gov/gov/Pages/share-your-opinion.aspx">The Office of Oregon Govenor Kate Brown</a></li>
+              <li>Reach out to an <a href="https://www.oregonlegislature.gov/house/pages/representativesall.aspx">Oregon State Representative</a></li>
+              <li><a href="www.freeseneca.org">Click here to open a prefilled and addressed e-mail to all Oregon representatives</a></li>
+              <li>Donate!</li>
             </ul>
           </Box>
         </Container>
