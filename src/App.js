@@ -212,7 +212,7 @@ export default function ElevateAppBar(props) {
                   <li>Contact <a href="https://www.oregon.gov/gov/Pages/share-your-opinion.aspx">The Office of Oregon Govenor Kate Brown</a></li>
                   <li>Reach out to an <a href="https://www.oregonlegislature.gov/house/pages/representativesall.aspx">Oregon State Representative</a></li>
                   <li>Write to your own representatives about prison conditions in Oregon (<a href="https://democracy.io/">Democracy.io</a>)</li>
-                  <li>Donate! Proceeds go to Seneca's legal appeal fund</li>
+                  <li>Donate! Your donation will help fund Seneca's legal appeal</li>
                 </ul>
               </CardContent>
             </Card>
