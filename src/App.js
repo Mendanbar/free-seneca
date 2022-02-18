@@ -36,6 +36,9 @@ const theme = createTheme({
     },
     secondary: blue,
   },
+  typography: {
+    fontSize: '14px'
+  }
 });
 
 function ElevationScroll(props) {
