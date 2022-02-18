@@ -86,14 +86,13 @@ export default function ElevateAppBar(props) {
         <img src={bannerWide} width="100%" className={classes.banner} alt="logo" />
         <Container>
           <Box my={2}>
-            {[...new Array(12)]
-              .map(
-                () => `Cras mattis consectetur purus sit amet fermentum.
-Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et.`,
-              )
-              .join('\n')}
+            <p>Paragraph about Seneca here.  Basic details of why we are raising awareness. Some details about where the money goes when a person clicks "donate"? Temp text for filler: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna. Semper viverra nam libero justo. Nullam non nisi est sit amet facilisis magna etiam tempor. Magna ac placerat vestibulum lectus mauris ultrices eros in. Massa tincidunt dui ut ornare lectus sit amet. Porta non pulvinar neque laoreet suspendisse. Tincidunt lobortis feugiat vivamus at. Ultricies mi quis hendrerit dolor magna eget est. Senectus et netus et malesuada fames ac turpis egestas sed. Pellentesque massa placerat duis ultricies lacus sed turpis. </p>
+            <h2>Who to Contact</h2>
+            <ul>
+              <li>John Doe</li>
+              <li>John Doe</li>
+              <li>John Doe</li>
+            </ul>
           </Box>
         </Container>
       </div>
