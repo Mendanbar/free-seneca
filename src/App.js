@@ -9,7 +9,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
-import banner from './banner.jpg'
 import bannerWide from './banner-wide.jpg'
 
 const useStyles = makeStyles((theme) => ({
@@ -84,7 +83,6 @@ export default function ElevateAppBar(props) {
           </AppBar>
         </ElevationScroll>
         <Toolbar />
-        {/* <img src={banner} width="100%" className={classes.banner} alt="logo" /> */}
         <img src={bannerWide} width="100%" className={classes.banner} alt="logo" />
         <Container>
           <Box my={2}>
