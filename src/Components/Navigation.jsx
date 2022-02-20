@@ -5,6 +5,7 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import CharacterIcon from '@material-ui/icons/DescriptionOutlined';
 import HomeIcon from '@material-ui/icons/HomeOutlined';
 import PicturesIcon from '@material-ui/icons/Instagram';
+import { useNavigate } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -27,18 +28,22 @@ const useStyles = makeStyles(theme => ({
 export default function Navigation() {
     const classes = useStyles();
     // const [value, setValue] = React.useState(1);
+    let navigate = useNavigate();
 
     const handleNavClick = (page) => {
         // setValue(page);
         switch (page) {
             case 0:
-                window.location.assign("/character")
+                //window.location.assign("/character")
+                navigate(`/character`);
                 break;
             case 1:
-                window.location.assign("/")
+                //window.location.assign("/")
+                navigate(`/`);
                 break;
             case 2:
-                window.location.assign("/pictures")
+                //window.location.assign("/pictures")
+                navigate(`/pictures`);
                 break;
             default:
                 break;

@@ -33,9 +33,9 @@ ReactDOM.render(
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/character" element={<Character />} />
           <Route path="/pictures" element={<Pictures />} />
+          <Route path="/" element={<Home />} />
         </Routes>
         <Navigation/>
       </Router>
