@@ -37,7 +37,7 @@ ReactDOM.render(
           <Route path="/pictures" element={<Pictures />} />
           <Route path="/" element={<Home />} />
         </Routes>
-        <Navigation/>
+        <Navigation />
       </Router>
     </ThemeProvider>
   </React.StrictMode>,

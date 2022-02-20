@@ -34,16 +34,13 @@ export default function Navigation() {
         // setValue(page);
         switch (page) {
             case 0:
-                //window.location.assign("/character")
                 navigate(`/character`);
                 break;
             case 1:
-                //window.location.assign("/")
                 navigate(`/`);
                 break;
             case 2:
-                //window.location.assign("/pictures")
-                navigate(`/pictures`);
+                window.location.assign('https://www.instagram.com/explore/tags/freelilseneca/')
                 break;
             default:
                 break;
@@ -62,7 +59,7 @@ export default function Navigation() {
             >
                 <BottomNavigationAction className={classes.foreground} label="Character" icon={<CharacterIcon />} />
                 <BottomNavigationAction className={classes.foreground} label="Home" icon={<HomeIcon />} />
-                <BottomNavigationAction className={classes.foreground} label="Pictures" icon={<PicturesIcon />} />
+                <BottomNavigationAction className={classes.foreground} label="Instagram" icon={<PicturesIcon />} />
             </BottomNavigation>
         </footer>
     );
