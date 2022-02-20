@@ -14,7 +14,6 @@ import Home from './Pages/Home'
 import Character from './Pages/Character'
 import Pictures from './Pages/Pictures';
 
-import GA from './utils/GoogleAnalytics'
 
 const theme = createTheme({
   palette: {
@@ -33,7 +32,6 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Router>
-        {GA.init() && <GA.RouteTracker />}
         <Header />
         <Routes>
           <Route path="/character" element={<Character />} />
