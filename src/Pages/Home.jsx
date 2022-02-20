@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   address: {
-    width: 200,
+    width: 205,
     padding:5
   }
 }));
@@ -90,7 +90,7 @@ export default function Home(props) {
                 <li>
                   <div>Write to Seneca with your support:</div>
                   <Paper variant="outlined" square component="address" className={classes.address}>
-                    Seneca H. Cayson, #7875977<br />
+                    <b>Seneca H. Cayson, #7875977</b><br />
                     WASHINGTON COUNTY JAIL<br />
                     215 SW ADAMS AVE MS 35<br />
                     HILLSBORO, OR 97123-3874<br />
