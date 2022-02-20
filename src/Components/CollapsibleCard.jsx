@@ -29,7 +29,7 @@ export default function CollapsibleCard(props) {
     const [expanded, setExpanded] = React.useState(false);
     const {title, children} = props
 
-    const handleExpandClick2 = () => {
+    const handleExpandClick = () => {
         setExpanded(!expanded);
     };
 
@@ -41,7 +41,7 @@ export default function CollapsibleCard(props) {
                     className={clsx(classes.expand, {
                         [classes.expandOpen]: expanded,
                     })}
-                    onClick={handleExpandClick2}
+                    onClick={handleExpandClick}
                     aria-expanded={expanded}
                     aria-label="show more"
                 >

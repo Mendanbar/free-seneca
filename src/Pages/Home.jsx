@@ -1,21 +1,16 @@
 import React from 'react';
-import { makeStyles, createTheme, ThemeProvider } from '@material-ui/core/styles';
-import { grey, blue } from '@material-ui/core/colors';
+import { makeStyles } from '@material-ui/core/styles'; 
 import Typography from '@material-ui/core/Typography';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
-import bannerWide from './banner-wide.jpg'
+import bannerWide from '../banner-wide.jpg'
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-import CollapsibleCard from './Components/CollapsibleCard';
-import Header from './Components/Header';
+import MainContent from '../Components/MainContent';
+import CollapsibleCard from '../Components/CollapsibleCard';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
   actionCard: {
     padding: '8px',
   },
@@ -24,26 +19,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: grey[800],
-    },
-    secondary: blue,
-  },
-  typography: {
-    fontSize: 14
-  }
-});
-
-export default function App(props) {
+export default function Home(props) {
   const classes = useStyles();
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <div className={classes.root}>
-        <Header />
+    <MainContent>
         <img src={bannerWide} width="100%" className={classes.banner} alt="logo" />
         <Container>
           <Box my={2}>
@@ -108,7 +88,6 @@ export default function App(props) {
             </Card>
           </Box>
         </Container>
-      </div>
-    </ThemeProvider>
+      </MainContent>
   );
 }
