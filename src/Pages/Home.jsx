@@ -19,8 +19,9 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   address: {
-    width: 272,
-    padding: 5
+    width: '305px',
+    padding: '5px',
+    fontSize: '15px',
   },
   ul: {
     marginBlockStart: 0
@@ -93,10 +94,10 @@ export default function Home(props) {
                 <li>
                   <div>Write to Seneca with your support:</div>
                   <Paper variant="outlined" square component="address" className={classes.address}>
-                    <b>Seneca H. Cayson, SID #21102831</b><br />
-                    Coffee Creek Correctional Facility<br />
-                    24499 SW Grahams Ferry Road<br />
-                    Wilsonville, OR 97070<br />
+                    <b>Seneca Cayson, SID# 21102831</b><br />
+                    WARNER CREEK CORRECTIONAL FACILITY<br />
+                    20654 RABBIT HILL RD<br />
+                    LAKEVIEW, OR 97630-9195<br />
                   </Paper>
                 </li>
                 <li>Donate! Your donation will help fund Seneca's legal appeal</li>
